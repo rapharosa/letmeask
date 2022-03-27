@@ -12,14 +12,14 @@ export function Home(){
                 <strong>Crie salas de Q&amp;A ao vivo</strong>
                 <p>Tie as duvidas da sua audiência em tempo-real</p>
             </aside>
-            <main>
+            <main className='main-content'>
                 <div>
                     <img src={logoImg} alt="Latmeask" />
-                    <button>
+                    <button className='create-room'>
                         <img src={googleIconImg} alt="Logo do Google" />
                         Crie sua sala com o Google
                     </button>
-                    <div>ou entre em uma sala</div>
+                    <div className='separator'>ou entre em uma sala</div>
                     <form>
                         <input 
                             type="text" 
