@@ -1,4 +1,4 @@
-import { useHistory } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 import illustrationImg from '../assets/images/illustration.svg';
 import logoImg from '../assets/images/logo.svg';
@@ -8,10 +8,10 @@ import '../styles/auth.scss';
 import { Button } from '../components/Button';
 
 export function Home(){
-    const history = useHistory();
+    const navigate = useNavigate();
 
     function navigateToNewRoom() {
-        history.push('/room/new')
+        navigate('/room/new')
     }
 
     return(
