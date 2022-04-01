@@ -11,7 +11,7 @@ export function Home(){
     const navigate = useNavigate();
 
     function navigateToNewRoom() {
-        navigate('/room/new')
+        navigate('/rooms/new')
     }
 
     return(
